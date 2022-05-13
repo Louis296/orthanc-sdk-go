@@ -1,4 +1,4 @@
-package main
+package orthanc_sdk_go
 
 import (
 	"github.com/louis296/orthanc-sdk-go/api"
