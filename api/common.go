@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func doGET(url string, queryParams [][]string) ([]byte, error) {
+func DoGET(url string, queryParams [][]string) ([]byte, error) {
 	if queryParams != nil {
 		var params []string
 		for _, param := range queryParams {
